@@ -4,7 +4,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 async function getFeaturedProducts(): Promise<Products[]> {
-	const response = await api("/products/featured");
+	const response = await api("/products/featured", {
+		cache: "no-store",
+	});
 	const products = await response.json();
 	return products;
 }
