@@ -4,7 +4,7 @@
             "id": 1,
             "title": "Moletom Never Stop Learning",
             "slug": "moletom-never-stop-learning",
-            "price": 100,
+            "price": 129,
             "image": "/moletom-never-stop-learning.png",
             "descriptions": "Moletom fabricado com 88% de algodão e 12% de poliéster.",
             "featured": true
@@ -23,7 +23,7 @@
             "title": "Camiseta DoWhile 2022",
             "slug": "camiseta-dowhile-2022",
             "price": 69,
-            "image": "/camise-dowhile-2022.png",
+            "image": "/camiseta-dowhile-2022.png",
             "descriptions": "Camiseta fabricada com 100% algodão",
             "featured": true
         },
