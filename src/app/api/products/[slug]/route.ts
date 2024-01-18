@@ -1,6 +1,5 @@
 import { z } from "zod";
 import data from "../data.json";
-import { NextResponse } from "next/server";
 
 export async function GET(
 	_: Request,
@@ -16,6 +15,6 @@ export async function GET(
 			{ status: 400 },
 		);
 	}
-
+	
 	return Response.json(product);
 }
