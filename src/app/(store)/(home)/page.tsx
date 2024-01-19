@@ -1,5 +1,5 @@
-import { api } from "@/app/data/api";
-import { Products } from "@/app/data/types/products";
+import { api } from "@/data/api";
+import { Products } from "@/data/types/products";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
