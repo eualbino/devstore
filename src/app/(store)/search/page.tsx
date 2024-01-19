@@ -37,7 +37,7 @@ export default async function Search({ searchParams }: SearchProps) {
 						<Link
 							key={product.id}
 							href={product.slug}
-							className="group relative rounded-lg bg-zinc-900 overflow-hidden flex justify-center items-start max-h-[350px]"
+							className="group relative rounded-lg bg-zinc-900 overflow-hidden flex justify-center items-start max-h-[390px]"
 						>
 							<Image
 								src={product.image}
